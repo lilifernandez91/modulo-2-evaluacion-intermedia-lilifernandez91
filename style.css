@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    margin-top: 25px;
+    border-radius: 4px;
+    height: 25px;
+    border: none;
+}
+
+.button {
+    margin-top: 25px;
+    border-radius: 4px;
+    padding: 7px 25px;
+    border: none;
+    background-color:
+        #0172aa;
+    color: white;
+    font-size: 18px;
+}
+
+.paragraph {
+    margin-top: 25px;
+    border: 2px solid gray;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+}

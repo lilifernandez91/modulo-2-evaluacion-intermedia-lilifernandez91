@@ -14,6 +14,7 @@ function getRandomNumber(max) {
     return Math.ceil(Math.random() * max);
 };
 const randomNumber = getRandomNumber(100);
+console.log(randomNumber);
 
 //Función para comparar números
 const compareNumbers = (a, b) => {
