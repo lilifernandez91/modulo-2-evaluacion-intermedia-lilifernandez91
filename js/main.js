@@ -73,7 +73,6 @@ const handleClickReset = (ev) => {
     hint.innerHTML = `Pista: Escribe el número y dale a Prueba`;
     attemptsNumber.innerHTML = `Número de intentos: 0`;
     randomNumber = getRandomNumber(100);
-    console.log("🚀 ~ file: main.js ~ line 72 ~ handleClickReset ~ randomNumber", randomNumber)
     attempts = 0;
 };
 
